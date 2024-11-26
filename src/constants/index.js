@@ -260,29 +260,56 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
+        name: 'Skugal',
+        pos: 'Software Development Engineer',
+        duration: 'April 2024 - Oct 2024',
         title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        icon: '/assets/skugal.jpeg',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
-        animation: 'clapping',
+        name: 'Borderfree Pvt Ltd.',
+        pos: 'Software Engineer (React.js Developer)',
+        duration: 'Nov 2022 - Oct 2023',
+        title: `
+ <ul><li>Resolved over 30 tickets spanning UI issues, design challenges, code review and refactoring,
+troubleshooting, and reducing user-reported issues by 20% for enhanced system reliability.</li>
+<li> Implemented a date range picker, boosting user engagement by 20% for more comprehensive
+video analytics.</li>
+<li> Developed and integrated top product and sales video cards in the Analytics dashboard front-
+end using React with Typescript, improving user efficiency by 15% in identifying revenue-
+generating assets.</li>
+<li> Collaborated on the Revo Live platform, enhancing revenue generation capabilities by 25%
+through seamless product integration into videos. This innovation streamlined data processing
+and optimized data-driven decision-making for over 20 onboarded merchants. </li></ul>
+        `,
+        icon: '/assets/borderfreetechnology.jpeg',
+        animation: 'victory',
     },
     {
         id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        name: 'Growcify',
+        pos: 'React Native Developer',
+        duration: 'July 2021 - Oct 2022',
+        title: `<ul><li>Designed and implemented the user interface for the Growcify Android and iOS mobile apps using React and React Native, ensuring a seamless and engaging user experience with good design.</li>
+<li> Spearheaded the development of a robust APIs in JavaScript to aggregate orders by revenue and
+sales, streamlining order management and enhancing business intelligence. </li>
+<li> Conducted code review, implemented best practices to ensure high-quality, maintainable code
+for the Growcify projects.</li>
+<li> Actively participated in Agile development, software development and software engineering
+methodologies.</li></ul>
+        `,
+        icon: '/assets/growcify.jpeg',
+        animation: 'clapping',
+    },
+    {
+        id: 4,
+        name: 'Localites Pvt Ltd',
+        pos: 'Frontend Developer Intern',
+        duration: 'Feb 2021 - June 2021',
+        title: `<ul><li>Collaborated on learning to build a website and web applications user interface using HTML, CSS, and JavaScript.</li></ul>`,
+        icon: '/assets/localites.jpeg',
         animation: 'salute',
     },
 ];
